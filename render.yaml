@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: Queen-RiasV3
+    name: Rias-Gremory
     env: node
     region: singapore
     buildCommand: "yarn install"

@@ -1,0 +1,43 @@
+{
+  "name": "Rias Gremory X",
+  "description": "WhatsApp Bot using Node.js and Baileys",
+  "repository": "https://github.com/Toxic1239/Queen-RiasV3_",
+  "keywords": ["whatsapp", "bot", "baileys", "nodejs"],
+  "buildpacks": [
+    { "url": "heroku/nodejs" }
+  ],
+  "env": {
+    "PREFIX": {
+      "description": "Command prefix for the bot.",
+      "value": "."
+    },
+    "OWNER_NAME": {
+      "description": "Bot owner's name.",
+      "required": true
+    },
+    "OWNER_NUMBER": {
+      "description": "Owner's phone number (with country code).",
+      "required": true
+    },
+    "MODE": {
+      "description": "Bot mode (public/private).",
+      "value": "public"
+    },
+    "BOT_NAME": {
+      "description": "Name of the bot.",
+      "value": "Rias Gremory X"
+    },
+    "SESSION_ID": {
+      "description": "Base64 session ID for WhatsApp authentication.",
+      "required": true
+    },
+    "PORT": {
+      "description": "Port for the server.",
+      "value": "3000"
+    },
+    "TIME_ZONE": {
+      "description": "Timezone for the bot.",
+      "value": "Africa/Lagos"
+    }
+  }
+}

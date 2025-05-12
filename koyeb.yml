@@ -1,6 +1,6 @@
-name: Queen-RiasV3_
+name: Rias-Gremory 
 services:
-  - name: whatsapp-bot-service
+  - name: Rias-Gremory 
     type: web
     description: A WhatsApp bot built with Baileys
     instance_type: nano

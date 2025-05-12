@@ -1,6 +1,6 @@
 {
-  "name": "Queen RiasV3",
-  "description": "For deploying Queen RiasV3.",
+  "name": "Rias-Gremory",
+  "description": "For deploying Rias-Gremory.",
   "repository": "https://github.com/Toxic1239/Queen-RiasV3_",
   "build": {
     "commands": {
